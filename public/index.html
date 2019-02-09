@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="/screen.css">
   </head>
   <body>
-    <h1>Shuffling Cards</h1>
-   <button onclick= "randomCard()"> Grab a Card</button>
-    <div class="cardshape hide">
-      <p id="face"></p>
-    </div>
-    <!-- <p>This site was created by Juan Salazar on Wednesday, February 6th 2019 at 1:29pm</p> -->
+    <header>
+        <h1>Card Dealer</h1>
+    </header>
+    <section id="card-table">
+      <p class="cardas">Deck</p>
+      <button id="draw-pile">
+          Grab Card
+        </button>
+      <ul class="visible-hand red-text"></ul>
+    </section>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
+    <!--This site was created by Juan Salazar on Wednesday, February 6th 2019 at 1:29pm -->
