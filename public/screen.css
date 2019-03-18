@@ -28,6 +28,13 @@ h1 {
   margin: 0.5rem;
 }
 
+.♥ {color: red;}
+
+.♦ {color:red;}
+
+.♠ {color:black}
+
+.♣ {color:black} 
 
 
 .cardas {
@@ -41,9 +48,11 @@ h1 {
   align-items: center;
 }
 
-/* .red-text {
+.red-text {
   color: red;
-} */
+}
+
+.black-text {color: black;}
 
 #empty-deck {
   display: none;
